@@ -11,3 +11,6 @@ Title: <%= @article.title %>
 Description: <%= @article.description %>
 
 </p>
+
+<%= link_to "Back to article listing", edit_article_path(@article) %>
+<%= link_to "Edit the article", articles_path() %>
