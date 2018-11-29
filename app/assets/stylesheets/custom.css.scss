@@ -23,7 +23,7 @@ $navbar-default-bg: #174050;
 }
 
 .jumbotron{
-    background-image: url("alpha.png");
+    background-image: asset-url("alpha.png");
     background-size: cover;
     height: 550px;
 }
